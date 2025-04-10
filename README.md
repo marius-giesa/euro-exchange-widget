@@ -5,7 +5,7 @@ A **Scriptable** widget for iOS that displays current exchange rate data with a 
 
 ## Features
 
-- **Real-time Exchange Rate**: Retrieves up-to-date exchange rate data via the [Frankfurter API](https://www.frankfurter.app/).
+- **Real-time Exchange Rate**: Retrieves up-to-date exchange rate data via the [Frankfurter API]([[https://github.com/lineofflight/frankfurter]).
 - **Historical Graph**: Draws a trendline graph showing how the exchange rate has changed from a specified start date to today.
 - **Multi-currency Support**: Choose from a range of currencies including AUD, USD, GBP, and more.
 - **Easy Customization**: Set the start date and target currency directly through the widget parameter.
