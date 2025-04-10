@@ -1,6 +1,3 @@
-Below is an example of a fully formatted GitHub README in Markdown. You can copy & paste this content directly into your repo's README file.
-
----
 
 # Exchange Rate iOS Scriptable Widget
 
