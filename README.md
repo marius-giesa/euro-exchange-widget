@@ -1,50 +1,95 @@
-# euro-exchange-widget
-Exchange Rate iOS Scriptable Widget
+Below is an example of a fully formatted GitHub README in Markdown. You can copy & paste this content directly into your repo's README file.
 
-A simple yet powerful Scriptable widget for iOS that displays current exchange rates between Euro (EUR) and another currency of your choice, plus a graph showing the exchange rate trend from a selected start date to today.
+---
 
-Features
+# Exchange Rate iOS Scriptable Widget
 
-Real-time Exchange Rate: Fetches the latest exchange rate data using the Frankfurter API.
-Historical Graph: Displays a trendline graph of how the chosen currency rate has changed over a custom date range.
-Multiple Currencies: Supports a variety of currencies (e.g., AUD, USD, GBP, etc.).
-Configurable: You can customize the widget parameter to:
-Choose the start date in YYYY-MM-DD format.
-Specify the target currency (e.g., AUD).
-Preview
+A **Scriptable** widget for iOS that displays current exchange rate data with a trendline graph right on your iPhone home screen. This widget allows you to track the exchange rate between the Euro (EUR) and another currency of your choice.
 
-Below is an example screenshot of how the widget might look on your iPhone's home screen:
+## Features
 
-(Replace example_screenshot.png above with the actual screenshot file name or a link to the image in your repository.)
+- **Real-time Exchange Rate**: Retrieves up-to-date exchange rate data via the [Frankfurter API](https://www.frankfurter.app/).
+- **Historical Graph**: Draws a trendline graph showing how the exchange rate has changed from a specified start date to today.
+- **Multi-currency Support**: Choose from a range of currencies including AUD, USD, GBP, and more.
+- **Easy Customization**: Set the start date and target currency directly through the widget parameter.
 
-How to Install
+## Preview
 
-Copy the Code: Copy the entire script from the code section below.
-Create a New Script in Scriptable:
-Open the Scriptable app on your iPhone.
-Tap the + icon to create a new script.
-Paste the copied code into the new script.
-Press Done.
-Add the Widget to Your Home Screen:
-Long-press any empty space on your home screen until icons start to wiggle.
-Tap the + button (or "Edit" in the top-left corner) to add a widget.
-Search for Scriptable and select it.
-Choose the 2×2 widget size and tap Add Widget.
-Configure the Widget:
-While still in jiggle mode, tap the newly added Scriptable widget.
-Under Script, select the new script you just created.
-Under When Interacting, choose Run Script.
-Under Parameter, type your desired parameters in the format YYYY-MM-DD;CUR, for example:
-2025-01-01;AUD
-This will show the Euro-to-Australian Dollar exchange rate from January 1, 2025, to the current date.
-Usage
+![Widget Example](example_screenshot.png)  
+*Example of how the widget looks on the home screen. (Replace `example_screenshot.png` with your actual image file or URL.)*
 
-Widget Parameter: You must set the start date and the target currency via the widget parameter.
-Example: 2025-01-01;AUD
-Once added, the widget will automatically fetch the latest data each time it refreshes.
-Supported Currencies
+## Installation & Setup
 
-AUD, BGN, BRL, CAD, CHF, CNY, CZK, DKK, 
-GBP, HKD, HUF, IDR, ILS, INR, ISK, JPY, 
-KRW, MXN, MYR, NOK, NZD, PHP, PLN, RON, 
-SEK, SGD, THB, TRY, USD, ZAR
+1. **Copy the Code**: Copy the entire script code from the **The Script** section below.
+2. **Create a New Script in Scriptable**:  
+   - Open the [Scriptable](https://scriptable.app/) app on your iPhone.
+   - Tap the `+` icon to create a new script.
+   - Paste the copied code into the new script.
+   - Save the script.
+3. **Add the Widget to Your Home Screen**:
+   - **Long-press** any empty space on your home screen until the icons start to wiggle.
+   - Tap the `+` button (or select "Edit" in the top-left corner) to add a widget.
+   - Search for **Scriptable** and select it.
+   - Choose the **2×2** widget size and tap **Add Widget**.
+4. **Configure the Widget**:
+   - Long-press the Scriptable widget once it's on your home screen.
+   - Tap to **Edit Widget**.
+   - Under **Script**, select the newly created script.
+   - Under **When Interacting**, choose **Run Script**.
+   - Under **Parameter**, enter the parameters in the format:  
+     
+     ```
+     YYYY-MM-DD;CUR
+     ```
+     
+     For example:
+     
+     ```
+     2025-01-01;AUD
+     ```
+     
+     This sets the start date to January 1, 2025, and uses AUD as the target currency.
+
+## Supported Currencies
+
+This widget supports the following currencies:
+
+- **AUD** - Australia
+- **BGN** - Bulgaria
+- **BRL** - Brazil
+- **CAD** - Canada
+- **CHF** - Switzerland
+- **CNY** - China
+- **CZK** - Czech Republic
+- **DKK** - Denmark
+- **GBP** - United Kingdom
+- **HKD** - Hong Kong
+- **HUF** - Hungary
+- **IDR** - Indonesia
+- **ILS** - Israel
+- **INR** - India
+- **ISK** - Iceland
+- **JPY** - Japan
+- **KRW** - South Korea
+- **MXN** - Mexico
+- **MYR** - Malaysia
+- **NOK** - Norway
+- **NZD** - New Zealand
+- **PHP** - Philippines
+- **PLN** - Poland
+- **RON** - Romania
+- **SEK** - Sweden
+- **SGD** - Singapore
+- **THB** - Thailand
+- **TRY** - Turkey
+- **USD** - United States
+- **ZAR** - South Africa
+
+
+## License
+
+Feel free to use, modify, and share this code under your preferred license. Attribution is appreciated but not mandatory.
+
+---
+
+If you have any issues, suggestions, or want to contribute improvements, please open an issue or submit a pull request. Happy coding!
