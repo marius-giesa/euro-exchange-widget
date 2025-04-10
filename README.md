@@ -1,5 +1,5 @@
 
-# Exchange Rate iOS Scriptable Widget
+# Currency Exchange Rate (Euro) iOS Scriptable Widget
 
 A **Scriptable** widget for iOS that displays current exchange rate data with a trendline graph right on your iPhone home screen. This widget allows you to track the exchange rate between the Euro (EUR) and another currency of your choice.
 
@@ -25,7 +25,7 @@ A **Scriptable** widget for iOS that displays current exchange rate data with a 
    - Save the script.
 3. **Add the Widget to Your Home Screen**:
    - **Long-press** any empty space on your home screen until the icons start to wiggle.
-   - Tap the `+` button (or select "Edit" in the top-left corner) to add a widget.
+   - Tap "Edit" in the top-left corner to add a widget.
    - Search for **Scriptable** and select it.
    - Choose the **2×2** widget size and tap **Add Widget**.
 4. **Configure the Widget**:
