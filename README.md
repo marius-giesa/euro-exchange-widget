@@ -12,8 +12,8 @@ A **Scriptable** widget for iOS that displays current exchange rate data with a 
 
 ## Preview
 
-![Widget Example](example_screenshot.png)  
-*Example of how the widget looks on the home screen. (Replace `example_screenshot.png` with your actual image file or URL.)*
+![Widget Example](https://github.com/marius-giesa/euro-exchange-widget/blob/main/Exchange_Widget_Example.png) 
+*Example of how the widget looks on the home screen.*
 
 ## Installation & Setup
 
