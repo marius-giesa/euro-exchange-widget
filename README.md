@@ -90,7 +90,7 @@ This widget supports the following currencies:
 
 ## License
 
-Feel free to use, modify, and share this code under your preferred license. Attribution is appreciated but not mandatory.
+Feel free to use, modify, and share this code under your preferred license. When you use it, please provide some attribution to this repository.
 
 ---
 
