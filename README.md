@@ -13,6 +13,10 @@ A **Scriptable** widget for iOS that displays current exchange rate data with a 
 ## Preview
 
 ![Widget Example](https://github.com/marius-giesa/euro-exchange-widget/blob/main/Exchange_Widget_Example.png) 
+<p align="center">
+    <img src="[https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png](https://github.com/marius-giesa/euro-exchange-widget/blob/main/Exchange_Widget_Example.png)" alt="Widget Example" width="400">
+  </a>
+</p>
 *Example of how the widget looks on the home screen.*
 
 ## Installation & Setup
